@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      span {
+        position: relative;
+        left: 24px;
+      }
+      h1 {
+        color: white;
+      }
+      body {
+        background-color: rgb(62, 61, 61);
+      }
+      footer {
+        position: relative;
+        left: 120px;
+        color: white;
+        font-size: 190%;
+        padding-top: 25%;
+        padding-left: 18%;
+      }
+      aside {
+        position: relative;
+        left: 5%;
+        padding-top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <hr />
+    <h1 style="position: relative; left: 35%">Fill the Application</h1>
+    <hr />
+    <form action="index3.html" method="get">
+      <label for="fname">first name</label>
+      <input type="text" id="fname" placeholder="First Name" name="fname" />
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" placeholder="Last Name" name="lname" />
+      <br />
+      <label for="email">E-mail</label
+      ><span>
+        <input
+          type="email"
+          id="email"
+          value="someone@forexample.com"
+          name="email"
+        />
+        <br />
+      </span>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" />
+      </div>
+      <label for="color">Choose Color</label>
+      <input type="color" name="color" /><br />
+      <div>
+        <label for="Model">Car model</label>
+        <input type="text" id="Model" disabled value="AMG" name="model" />
+      </div>
+      <label for="date">Resrvation Date</label>
+      <input type="date" name="date" id="date" /><br />
+      <label style="position: relative; left: 47px" for="body">Body</label
+      ><br />
+      <input type="radio" name="body" id="suv" value="suv" />
+      <label for="suv">SUV</label>
+      <input type="radio" name="body" id="pickup-truck" value="pickup-truck" />
+      <label for="pickup-truck">Pick-Up</label><br /><br />
+      <label for="">Options</label>
+      <div>
+        <input type="checkbox" name="car" value="ABS" id="ABS" />
+        <label for="ABS">ABS</label>
+      </div>
+      <div>
+        <input type="checkbox" name="car" value="Nitrous" id="Nitrous" />
+        <label for="Nitrous">Nitrous</label>
+      </div>
+      <div>
+        <input type="checkbox" name="car" value="Military Skin" id="Skin" />
+        <label for="Skin">Military Skin</label>
+      </div>
+      <div>
+        <input type="checkbox" name="car" value="eco" id="eco" />
+        <label for="eco">Eco Fuel System</label>
+      </div>
+      <aside>
+        <input type="submit" />
+      </aside>
+      <footer>Just Few Steps For Your G-Class</footer>
+    </form>
+  </body>
+</html>
